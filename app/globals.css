@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #36302d;
+  --page: #f1efed;
+  --text: #f2ede8;
+  --muted: #a39a94;
+  --orange: #e8905a;
+  --purple: #b5a4f0;
+  --pink: #d95be0;
+}
+
+body {
+  background: var(--page);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
